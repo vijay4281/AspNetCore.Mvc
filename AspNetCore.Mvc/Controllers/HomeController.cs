@@ -17,7 +17,7 @@ namespace AspNetCore.Mvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application About page.";
+            ViewData["Message"] = "Your application About changed page.";
 
             return View();
         }
